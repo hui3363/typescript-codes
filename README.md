@@ -2,7 +2,7 @@
 
 typescript 문법 공부
 
-### 컴파일, 실행
+### 컴파일 & 실행
 1) typescript 전역 설치<br>
 `npm i -g typescript`<br><br>
 2) ts -> js 컴파일<br>
@@ -21,7 +21,7 @@ typescript 문법 공부
 - Type
 
 ##### 03.type-assertion,type-guard
-- Type Assertion
+- Type Assertion  
   시스템이 추론, 분석한 타입 내용을 개발자가 마음대로 바꿀때 사용
 - Type Guard
 
@@ -95,8 +95,8 @@ typescript 문법 공부
 ##### 13.ts-config
 - tsconfig.json
 - 주요 옵션
-  - compilerOptions
-  - files | include
+  - compilerOptions  
+  - files | include : 변환할 파일 위치
   - exclude : 변환하지 않을 폴더
   - extends : 다른 config 상속받아 쓰기
   - lib : 라이브러리
@@ -104,8 +104,8 @@ typescript 문법 공부
       - 상대적, 비상대적 경로
       - classic 전략, node 전략
   - baseUrl : 비상대적 모듈 해석 과정에 0번째 순서를 baseUrl으로 추가
-  - paths : "@src/*" 를 'src/*' 지정하면 상대경로 가져올때 바로 @src/file명 으로 가져올수 있음
-  - isoltatedModules
+  - paths : "@src/*" 를 'src/*' 지정하면 상대경로 가져올필요없이 바로 @src/file명 으로 가져올수 있음
+  - isoltatedModules  
   - romoveComments : 타입스크립트의 모든 주석 제거
   - allowJs : js와 ts 같이 사용
   - checkJs : allowJs와 같이 사용하고, js의 오류가 보고됨
